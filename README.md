@@ -24,10 +24,6 @@ After downloading, place the file inside a folder named `weights/` in your proje
 3. Run the app: `python app.py`
 4. Open `http://localhost:5000` in your browser
 
-## Sample Results
-📸 See `/results` for screenshots  
-📹 Test videos in `/demo`
-
 ## Dataset
 Used [FDST Dataset](sweetyy83/Lstn_fdst_dataset) for model training
 
