@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Navigation */
+.analysis-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.analysis-nav a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid #ddd;
+}
+
+.analysis-nav a:hover {
+    background: #f0f0f0;
+}
+
+.analysis-nav a.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.analysis-nav a.home-link {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Heatmap */
+#heatmap {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendation Box */
+#recommendation {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #28a745;
+    background: #e8f5e9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Sustainability Insights */
+#sustainability {
+    margin-top: 10px;
+    padding: 15px;
+    background: #f0fff4;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+}
+
+#green-gate {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Movement Status */
+.movement {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.movement:contains("HIGH") {
+    color: #dc3545;
+    background: #ffe5e5;
+}
+
+.movement:contains("MODERATE") {
+    color: #ffc107;
+    background: #fff3cd;
+}
+
+.movement:contains("LOW") {
+    color: #28a745;
+    background: #e8f5e9;
+}
+
+/* Prediction boxes */
+.gate-prediction {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.gate-prediction h4 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.gate-prediction ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.gate-prediction li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.gate-prediction li:last-child {
+    border-bottom: none;
+}
+
+/* Chart container */
+#predictionChart {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Add these to your existing style.css */
+.sustainability-metrics {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.metric-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.metric {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.metric .value {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #28a745;
+    display: block;
+}
+
+.metric .label {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.analysis-nav a.home-link {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+    margin-left: auto;
+}
+/* spinner*/
+/* Loading Spinner Styles */
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+    display: none; /* Hidden by default */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
