@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowd Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crowd Analysis</h1>
+        
+        <nav class="analysis-nav">
+            <a href="/analysis" class="active">Analysis</a>
+            <a href="/predictions">Predictions</a>
+            <a href="/" class="home-link">New Analysis</a>
+        </nav>
+
+        <div class="section">
+            <h2>Crowd Counts & Movement</h2>
+            <div id="crowd-counts"></div>
+        </div>
+
+        <div class="section">
+            <h2>Crowd Distribution</h2>
+            <img id="heatmap" src="" alt="Crowd Heatmap">
+        </div>
+
+        <div class="section">
+            <h2>Recommendations</h2>
+            <div id="recommendation"></div>
+        </div>
+    </div>
+
+    <script src="/static/analysis.js"></script>
+</body>
+</html>
