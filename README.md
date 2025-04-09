@@ -7,8 +7,6 @@ It uses YOLOv8 for crowd detection, Optical Flow for movement tracking, and smar
 - Real-time people detection from images/videos
 - Optical flow analysis to detect crowd movement intensity
 - Heatmap & predictions
-- Smart gate recommendation
-- Green Gate: energy-efficient gate optimization
   
 ## 📦 Model Weights
 
