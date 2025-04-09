@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize YOLO model
-model = YOLO("edit path..../runs/best.pt") # edit path 
+model = YOLO("edit path..../weights/best.pt") # edit path 
 
 def count_people(image_path):
     results = model(image_path)
