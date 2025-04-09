@@ -9,6 +9,14 @@ It uses YOLOv8 for crowd detection, Optical Flow for movement tracking, and smar
 - Heatmap & predictions
 - Smart gate recommendation
 - Green Gate: energy-efficient gate optimization
+  
+## 📦 Model Weights
+
+Due to GitHub file size limits, the trained YOLOv8 model (`best.pt`) is hosted externally.
+
+👉 [Download best.pt from Google Drive](https://drive.google.com/drive/folders/1zFwnPZHso66BMuPZwQjB_kk5XpPa8P8j?usp=share_link)
+
+After downloading, place the file inside a folder named `weights/` in your project root:
 
 ## How to Run
 1. Clone the repo
@@ -21,4 +29,7 @@ It uses YOLOv8 for crowd detection, Optical Flow for movement tracking, and smar
 📹 Test videos in `/demo`
 
 ## Dataset
-Used [FDST Dataset](https://github.com/sweetyy83/FDST) for model training
+Used [FDST Dataset](sweetyy83/Lstn_fdst_dataset) for model training
+
+
+
